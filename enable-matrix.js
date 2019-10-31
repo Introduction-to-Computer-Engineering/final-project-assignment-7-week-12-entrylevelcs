@@ -2,6 +2,7 @@ basic.showString("Matrix Enabled")
 pins.analogWritePin(AnalogPin.P8, 0)
 pins.analogWritePin(AnalogPin.P12, 0)
 pins.analogWritePin(AnalogPin.P16, 0)
+//changed to pins that do not affect the 5x5 matrix
 basic.forever(function () {
     for (let index = 0; index <= 3071; index++) {
         if (index < 2046) {
