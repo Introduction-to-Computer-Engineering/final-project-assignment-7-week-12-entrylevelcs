@@ -17,7 +17,7 @@ function snake() {
         }
         yCoord++
     }
-    //the following if statements change which LED is enabled based on yCoord value
+    //the following three if statements change which LED is enabled based on yCoord value
     if (yCoord >= 0 && yCoord <= 1) {
         pins.analogWritePin(AnalogPin.P8, 0)
         pins.analogWritePin(AnalogPin.P12, 1023)
