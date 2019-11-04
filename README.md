@@ -10,3 +10,6 @@ For this part of the project I choose to implement the leds in my snake screensa
 ### Soil Sensor
 #### Part 1: Digital in
 For this part of the project I used an if statement that checked for whether or not the button was pressed or not and depending on if it was on or not, the LED would be enabled. As for whether the configuration needs a [pullup resistor](https://www.google.com/search?q=pullup+pulldown+resistor&oq=pullup+pull) or not, I do not believe that it needs a pullup resistor because the button needs to start at a default state of 0 and the pullup resistor would put it at a state of 1. The code can be found [here](digital-in.js) and its operations can be seen in this video.
+#### Part 2: Initial Soil Wiring
+For this part I followed the documentation for the circuit and an image of it can be seen here.
+#### Part 3: Manual Calibration
