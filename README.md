@@ -11,7 +11,7 @@ For this part of the project I choose to implement the leds in my snake screensa
 #### Part 1: Digital in
 For this part of the project I used an if statement that checked for whether or not the button was pressed or not and depending on if it was on or not, the LED would be enabled. As for whether the configuration needs a [pullup resistor](https://www.google.com/search?q=pullup+pulldown+resistor&oq=pullup+pull) or not, I do not believe that it needs a pullup resistor because the button needs to start at a default state of 0 and the pullup resistor would put it at a state of 1. The code can be found [here](digital-in.js) and its operations can be seen in this [video.](https://imgur.com/a/lfxOH2H)
 #### Part 2: Initial Soil Wiring
-For this part of the project I followed the documentation for the circuit and an image of it can be seen here.
+For this part of the project I followed the documentation for the circuit and an image of it can be seen [here.](https://imgur.com/a/qnwSwpq)
 #### Part 3: Manual Calibration
 For this part of the project I used a series of functions in a forever loop to take an analog reading of the soil sensor then map that onto the LED matrix. If there is no reading then none of the matrix will light up and if the reading is full then the entire matrix will be enabled with any reading in between lighting up anywhere from one to four rows. The code can be found [here](manual-calibration.js) and its operations can be seen in this video.
 #### Part 4: Auto Calibration
