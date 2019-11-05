@@ -6,7 +6,7 @@ let upperValue: number = 0
 function soilReading() {
     pins.digitalWritePin(DigitalPin.P8, 1)
     basic.pause(50)
-    let soil = pins.analogReadPin(AnalogPin.P12)
+    let soil = pins.analogReadPin(AnalogPin.P0)
     pins.digitalWritePin(DigitalPin.P8, 0)
     return soil
 }
@@ -91,3 +91,5 @@ basic.forever(function () {
     //after calibration it performs normal readings
     output(map_(soilReading()))
 })
+
+//completed by Muajeh Lee and Gavin Unrue
