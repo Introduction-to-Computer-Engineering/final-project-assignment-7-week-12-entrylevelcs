@@ -13,4 +13,4 @@ For this part of the project I used an if statement that checked for whether or 
 #### Part 2: Initial Soil Wiring
 For this part of the project I followed the documentation for the circuit and an image of it can be seen here.
 #### Part 3: Manual Calibration
-For this part of the project I used a series of functions in a forever loop to take an analog reading of the soil sensor then map into onto the LED matrix. If there is no reading then none of the matrix will light up and if the reading is full then the entire matrix will be enabled with any reading in between lighting up anywhere from one to four rows. The code can be found [here](manual-calibration.js) and its operations can be seen in this video.
+For this part of the project I used a series of functions in a forever loop to take an analog reading of the soil sensor then map that onto the LED matrix. If there is no reading then none of the matrix will light up and if the reading is full then the entire matrix will be enabled with any reading in between lighting up anywhere from one to four rows. The code can be found [here](manual-calibration.js) and its operations can be seen in this video.
